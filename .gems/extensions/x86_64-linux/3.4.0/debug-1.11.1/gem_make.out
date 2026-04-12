@@ -1,0 +1,19 @@
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/debug-1.11.1/ext/debug
+/nix/store/s57rf37r1i38kpm3nlv4h8f8z2w2n80d-ruby-3.4.8/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-4oig7f sitelibdir\=./.gem.20260408-204854-4oig7f clean
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-4oig7f sitelibdir\=./.gem.20260408-204854-4oig7f
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-4oig7f sitelibdir\=./.gem.20260408-204854-4oig7f install
+install -c -p -m 755 debug.so ./.gem.20260408-204854-4oig7f/debug
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-4oig7f sitelibdir\=./.gem.20260408-204854-4oig7f clean

@@ -1,0 +1,19 @@
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/stringio-3.2.0/ext/stringio
+/nix/store/s57rf37r1i38kpm3nlv4h8f8z2w2n80d-ruby-3.4.8/bin/ruby extconf.rb
+checking for rb_io_mode_t in ruby/io.h... no
+creating Makefile
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/stringio-3.2.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-daz2pz sitelibdir\=./.gem.20260408-204854-daz2pz clean
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/stringio-3.2.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-daz2pz sitelibdir\=./.gem.20260408-204854-daz2pz
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/stringio-3.2.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-daz2pz sitelibdir\=./.gem.20260408-204854-daz2pz install
+install -c -p -m 755 stringio.so ./.gem.20260408-204854-daz2pz
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/stringio-3.2.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-daz2pz sitelibdir\=./.gem.20260408-204854-daz2pz clean

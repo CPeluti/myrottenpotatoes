@@ -1,0 +1,41 @@
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/puma-7.2.0/ext/puma_http11
+/nix/store/s57rf37r1i38kpm3nlv4h8f8z2w2n80d-ruby-3.4.8/bin/ruby extconf.rb
+checking for pkg-config for openssl... ["-I/nix/store/79xszwqidf98ag703b5c82q3pwg9lyzq-openssl-3.6.1-dev/include ", "-L/nix/store/bga5xf95jaypy385hvxm4h3yxl3m1566-openssl-3.6.1/lib", "-lssl -lcrypto"]
+──── Using OpenSSL pkgconfig (openssl.pc) ────
+checking for openssl/bio.h... yes
+
+──── Below are yes for 1.0.2 & later ────
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_session_cache_mode(NULL, 0) in openssl/ssl.h... yes
+
+──── Below are yes for 1.1.0 & later ────
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+
+──── Below is yes for 1.1.0 and later, but isn't documented until 3.0.0 ────
+checking for SSL_CTX_set_dh_auto(NULL, 0) in openssl/ssl.h... yes
+
+──── Below is yes for 1.1.1 & later ────
+checking for SSL_CTX_set_ciphersuites(NULL, "") in openssl/ssl.h... yes
+
+──── Below is yes for 3.0.0 & later ────
+checking for SSL_get1_peer_certificate() in openssl/ssl.h... yes
+
+creating Makefile
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/puma-7.2.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-3ip9du sitelibdir\=./.gem.20260408-204854-3ip9du clean
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/puma-7.2.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-3ip9du sitelibdir\=./.gem.20260408-204854-3ip9du
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/puma-7.2.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-3ip9du sitelibdir\=./.gem.20260408-204854-3ip9du install
+install -c -p -m 755 puma_http11.so ./.gem.20260408-204854-3ip9du/puma
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/puma-7.2.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-3ip9du sitelibdir\=./.gem.20260408-204854-3ip9du clean

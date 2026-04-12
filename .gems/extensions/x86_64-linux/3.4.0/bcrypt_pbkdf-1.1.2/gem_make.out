@@ -1,0 +1,22 @@
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/bcrypt_pbkdf-1.1.2/ext/mri
+/nix/store/s57rf37r1i38kpm3nlv4h8f8z2w2n80d-ruby-3.4.8/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/bcrypt_pbkdf-1.1.2/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-tsjunl sitelibdir\=./.gem.20260408-204854-tsjunl clean
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/bcrypt_pbkdf-1.1.2/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-tsjunl sitelibdir\=./.gem.20260408-204854-tsjunl
+compiling bcrypt_pbkdf.c
+compiling bcrypt_pbkdf_ext.c
+compiling blowfish.c
+compiling explicit_bzero.c
+compiling hash_sha512.c
+linking shared-object bcrypt_pbkdf_ext.so
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/bcrypt_pbkdf-1.1.2/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-tsjunl sitelibdir\=./.gem.20260408-204854-tsjunl install
+install -c -p -m 755 bcrypt_pbkdf_ext.so ./.gem.20260408-204854-tsjunl
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/bcrypt_pbkdf-1.1.2/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-tsjunl sitelibdir\=./.gem.20260408-204854-tsjunl clean

@@ -1,0 +1,14 @@
+<h1>Details: <%= @movie.title%></h1>
+<ul id="details">
+    <li>
+        Rating: <%= @movie.rating%>
+    </li>
+    <li>
+        Released on: <%= @movie.release_date.strftime("%B %d, %Y")%>
+    </li>
+</ul>
+<div>
+    <%= @movie.title %>
+    <%= link_to "Back", movies_path %>
+    <%= link_to "Edit", edit_movie_path(@movie) %>
+</div>

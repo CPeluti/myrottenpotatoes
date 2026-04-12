@@ -1,0 +1,18 @@
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/bindex-0.8.1/ext/skiptrace
+/nix/store/s57rf37r1i38kpm3nlv4h8f8z2w2n80d-ruby-3.4.8/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-p2osqj sitelibdir\=./.gem.20260408-204854-p2osqj clean
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-p2osqj sitelibdir\=./.gem.20260408-204854-p2osqj
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-p2osqj sitelibdir\=./.gem.20260408-204854-p2osqj install
+install -c -p -m 755 cruby.so ./.gem.20260408-204854-p2osqj/skiptrace/internal
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260408-204854-p2osqj sitelibdir\=./.gem.20260408-204854-p2osqj clean

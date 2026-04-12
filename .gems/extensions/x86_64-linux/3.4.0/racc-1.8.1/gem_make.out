@@ -1,0 +1,18 @@
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/racc-1.8.1/ext/racc/cparse
+/nix/store/s57rf37r1i38kpm3nlv4h8f8z2w2n80d-ruby-3.4.8/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260408-204099-tt6tpy sitelibdir\=./.gem.20260408-204099-tt6tpy clean
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260408-204099-tt6tpy sitelibdir\=./.gem.20260408-204099-tt6tpy
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260408-204099-tt6tpy sitelibdir\=./.gem.20260408-204099-tt6tpy install
+install -c -p -m 755 cparse.so ./.gem.20260408-204099-tt6tpy/racc
+
+current directory: /home/caio/projetos/myrottenpotatoes/.gems/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260408-204099-tt6tpy sitelibdir\=./.gem.20260408-204099-tt6tpy clean
