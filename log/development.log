@@ -4360,3 +4360,47 @@ Processing by MoviesController#create as TURBO_STREAM
 Completed 422 Unprocessable Content in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2026-04-13 20:16:31 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Store'*/[0m
+Processing by MoviesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering movies/index.html.erb within layouts/application
+  Rendered movies/index.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | GC: 0.0ms)
+Completed 200 OK in 27ms (Views: 5.6ms | ActiveRecord: 0.6ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&commit=Refresh" for 127.0.0.1 at 2026-04-13 20:16:33 -0300
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings" => {"G" => "1"}, "commit" => "Refresh"}
+  Rendering layout layouts/application.html.erb
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (0.6ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'G' /*action='index',application='Store',controller='movies'*/[0m
+  ↳ app/views/movies/index.html.erb:38
+  Rendered movies/index.html.erb within layouts/application (Duration: 8.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | GC: 0.0ms)
+Completed 200 OK in 28ms (Views: 9.5ms | ActiveRecord: 0.8ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2026-04-13 20:16:55 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Store'*/[0m
+Processing by MoviesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/_form.html.erb (Duration: 5.8ms | GC: 0.0ms)
+  Rendered movies/new.html.erb within layouts/application (Duration: 6.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | GC: 0.0ms)
+Completed 200 OK in 21ms (Views: 9.7ms | ActiveRecord: 0.7ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/movies" for 127.0.0.1 at 2026-04-13 20:16:59 -0300
+Processing by MoviesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token" => "[FILTERED]", "movie" => {"title" => "", "rating" => "G", "release_date(1i)" => "2026", "release_date(2i)" => "4", "release_date(3i)" => "13"}, "commit" => "Create Movie"}
+  Rendering layout layouts/application.html.erb
+  Rendering movies/new.html.erb within layouts/application
+  Rendered movies/_form.html.erb (Duration: 2.7ms | GC: 0.0ms)
+  Rendered movies/new.html.erb within layouts/application (Duration: 2.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | GC: 0.0ms)
+Completed 422 Unprocessable Content in 9ms (Views: 4.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
