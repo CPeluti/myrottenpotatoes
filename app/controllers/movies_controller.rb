@@ -34,7 +34,7 @@ class MoviesController < ApplicationController
     if @movie.save
       redirect_to @movie
     else
-      flash[:alert] = "Todos campos devem ser preenchidos"
+      # flash[:alert] = "Todos campos devem ser preenchidos"
       render :new, status: :unprocessable_entity
     end
   end
