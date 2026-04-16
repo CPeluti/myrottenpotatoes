@@ -2,7 +2,7 @@ Given /I am on the index page/ do
     visit '/'
 end
 
-When /I click the create button/ do
+When('I click the create button') do
     click_link 'Add new movie'
 end
 
