@@ -1,10 +1,12 @@
-Feature: Create Movie
-    As a user
-    I want to register a movie
-    So that the system list my movie
+# language: pt
+Funcionalidade: : Criar Filme
+    Como um usuário
+    Eu quero registrar um filme novo
+    Para que o sistema mostre o meu filme
 
-    Scenario: Successfuly go to the create page
-        Given I am on the index page
-        When I click the create button
-        Then I should be redirected to the create page
-        And I should see the inputs
+    #happy path
+    Cenário: Ir para a pagina de criação com exito
+        Dado que eu estou na pagina inicial
+        Quando Eu aperto o botão de adicionar filme
+        Então Eu devo ser redirecionado para a pagina de criar filme
+        E Eu devo ver os inputs
