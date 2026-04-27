@@ -1,16 +1,16 @@
-Given /I am on the index page/ do
-    visit '/'
+Dado /que eu estou na pagina inicial/ do
+    visit movies_path rescue visit '/'
 end
 
-When('I click the create button') do
+Quando /Eu aperto o botão de adicionar filme/ do
     click_link 'Add new movie'
 end
 
-Then /I should be redirected to the create page/ do
+Então /Eu devo ser redirecionado para a pagina de criar filme/ do
     expect(page).to have_current_path("/movies/new")
 end
 
-Then /I should see the inputs/ do
+Then /Eu devo ver os inputs/ do
     expect(page).to have_css("#movie_title")
     expect(page).to have_css("#movie_rating")
     expect(page).to have_selector('select[id^="movie_release_date"]', count: 3)
